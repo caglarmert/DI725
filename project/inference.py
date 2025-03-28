@@ -3,7 +3,7 @@ import torch
 import csv
 from PIL import Image
 from processing_paligemma import PaliGemmaProcessor
-from modeling_gemma import KVCache, PaliGemmaForConditionalGeneration
+from gemma import KVCache, PaliGemmaForConditionalGeneration
 from utils import load_hf_model
 from typing import List
 from tqdm import tqdm
